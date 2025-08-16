@@ -1,0 +1,113 @@
+/* styles/InsuranceDashboard.css */
+
+.insurance-dashboard {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    height: 100vh;
+  }
+  
+  .insurance-dashboard h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .insurance-dashboard p {
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  .insurance-search {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .insurance-table {
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .insurance-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .insurance-table th,
+  .insurance-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .insurance-table th {
+    background-color: #f3f4f6;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .claim-status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .approved {
+    background-color: #d1fae5;
+    color: #10b981;
+  }
+  
+  .pending {
+    background-color: #fef3c7;
+    color: #d97706;
+  }
+  
+  .rejected {
+    background-color: #fee2e2;
+    color: #dc2626;
+  }
+  
+  button.approve-btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  button.approve-btn:hover {
+    background-color: #2563eb;
+  }
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logout-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff7875;
+  }
+  

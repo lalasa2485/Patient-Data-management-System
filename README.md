@@ -1,67 +1,12 @@
-The Patient Data Management System (PDMS) is designed to securely manage patient records, medical information, and insurance claims. It ensures efficient communication between Hospital Departments, Medical Departments, and Insurance Companies, while maintaining data confidentiality and integrity.
+# React + Vite
 
-This project focuses on secure, verifiable, and efficient management of patient healthcare data, including medical history, billing, and insurance processing.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Features
+Currently, two official plugins are available:
 
-👨‍⚕️ Patient Records Management – Store and update patient details securely
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🏥 Hospital Department Access – Doctors and staff can view/update medical data
+## Expanding the ESLint configuration
 
-💊 Medical Department Support – Manages prescriptions, treatments, and reports
-
-🛡️ Insurance Claim Integration – Verify and process patient billing with insurance
-
-🔒 Data Security – Ensures patient privacy with encryption and authentication
-
-📊 Data Flow Design – Implemented using DFD Level 0 & Level 1 diagrams
-
-🛠️ Tech Stack
-Frontend
-
-HTML5, CSS3, JavaScript
-
-(Optional: React.js for dynamic UI)
-
-Backend
-
-Node.js with Express.js (API development)
-
-OR Java (Spring Boot for enterprise healthcare systems)
-
-Database
-
-MySQL / PostgreSQL (structured medical & billing data)
-
-MongoDB (for flexible record storage if required)
-
-Security
-
-Authentication: JWT / OAuth2.0
-
-Data Encryption: AES / RSA
-
-📐 System Design
-Data Flow Diagrams (DFD)
-
-Level 0: Shows interaction between Patients, Hospital, Medical Department, and Insurance Company
-
-Level 1: Details processes like Patient Registration, Medical Record Updates, and Insurance Claim Processing
-
-Entities
-
-Hospital Department
-
-Medical Department
-
-Insurance Company
-
-📊 Future Enhancements
-
-📌 Role-based access for Admin, Doctor, and Patient
-
-📌 Cloud storage for scalable patient data handling
-
-📌 Integration with AI for disease prediction and analytics
-
-📌 Mobile app for easy patient access
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

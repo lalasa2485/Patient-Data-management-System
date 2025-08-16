@@ -1,0 +1,160 @@
+/* styles/MedicalDashboard.css */
+
+.medical-dashboard {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafb;
+    min-height: 100vh;
+  }
+  
+  .header {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .generate-bill-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-bill-btn:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .modal {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 850px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .modal h2 {
+    margin-bottom: 0.25rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .modal p {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+  }
+  
+  .modal label {
+    display: block;
+    font-weight: 600;
+    margin: 1rem 0 0.25rem;
+  }
+  
+  .modal select,
+  .modal textarea,
+  .modal input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .modal textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .services-inputs {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  
+  .services-inputs input {
+    flex: 1;
+  }
+  
+  .services-inputs input:last-child {
+    max-width: 100px;
+  }
+  
+  .add-item-btn {
+    padding: 0.5rem 1rem;
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .total-amount {
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    gap: 1rem;
+  }
+  
+  .modal-actions button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .cancel-btn {
+    background-color: #f3f4f6;
+    color: #374151;
+  }
+  
+  .generate-btn {
+    background-color: #2563eb;
+    color: white;
+  }
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logout-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff7875;
+  }
+  
